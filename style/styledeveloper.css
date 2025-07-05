@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background: linear-gradient(to bottom right, #f8f8f8, #dddddd);
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to right, #8B0000, #B22222);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  border-radius: 0 0 0 0; 
+}
+
+header h1 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffcccc;
+}
+
+#developer {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 40px 30px;
+  background: linear-gradient(to bottom, #ffffff, #eeeeee);
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#developer h2 {
+  color: #990000;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.developer-card {
+  background-color: #fafafa;
+  border-left: 6px solid #b22222;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.07);
+}
+
+.developer-card p {
+  margin-bottom: 12px;
+  font-size: 1em;
+  text-align: justify;
+  color: #333;
+}
+
+.developer-card a {
+  color: #b22222;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.developer-card a:hover {
+  text-decoration: underline;
+  color: #ff6666;
+}
+
+footer {
+  background-color: #2e2e2e;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  margin-top: 40px;
+  border-radius: 0 0 0 0;
+}
